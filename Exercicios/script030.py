@@ -1,0 +1,10 @@
+frase = str(input('Digite o seu nome completo para a análise ser feita:')).strip()
+print('-' * 50)
+print('Analisando nome...')
+print('O seu nome em maiúsculas é {}.'.format(frase.upper()))
+print('O seu nome em minúsculas é {}.'.format(frase.lower()))
+print('O seu nome tem ao todo {} letras.'.format(len(frase) - frase.count(' ')))
+print('O seu primeiro nome tem {} letras.'.format(frase.find(' ')))
+print('Nome analisado com sucesso!')
+print('-' * 50)
+

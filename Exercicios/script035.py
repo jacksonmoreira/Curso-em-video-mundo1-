@@ -1,0 +1,8 @@
+nome0 = str(input('Digite o seu nome completo: ')).strip()
+nome1 = nome0.split()
+print('=' * 40)
+print('Prazer em te conhecer {}'.format(nome0))
+print('O seu primeiro nome é: {}'.format(nome1[0]))
+print('E o seu último nome é: {}'.format(nome1[len(nome1) - 1]))
+print('Programa finalizado com sucesso!')
+print('=' * 40)
